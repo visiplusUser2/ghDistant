@@ -16,7 +16,8 @@ Algo HelloWorld {
 
 	// Création du label de texte
 	Créer un label avec du texte centré et contenant le texte HELLO_WORLD_TEXT
-	Mettre la couleur jaune sur le label
+	Créer la couleur orange 
+	Mettre la couleur orange sur le label
 
 	// Finalisation
 	Ajouter le label sur la fenetre
