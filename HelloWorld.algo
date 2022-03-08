@@ -5,7 +5,7 @@ Algo HelloWorld {
 
 	// Création de la fenetre
         Créer une fenetre de titre HELLO_WORLD_TITLE
-	Mettre la dimension à 100, 300
+	Mettre la dimension à 650, 200
 	Créer la couleur verte 
 	Mettre la couleur verte sur la fenetre
 	Configurer la fenetre sur ‘exitOnClose’
@@ -18,6 +18,11 @@ Algo HelloWorld {
 	Créer un label avec du texte centré et contenant le texte HELLO_WORLD_TEXT
 	Creation de la couleur cyan
 	Mettre la couleur cyan sur le label
+
+	// Création du label de date à coté
+	Créer un label avec de date contenant le texte de la date du jour
+	Creation de la couleur noire
+	Mettre la couleur noire sur la date
 
 	// Finalisation
 	Ajouter le label sur la fenetre
