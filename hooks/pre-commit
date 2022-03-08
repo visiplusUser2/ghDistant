@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Change the following values to suit your local setup.
+# Add this file on your .git/hooks/ and name it as 'pre-commit'
+#
+
+read -p "Creer le fichier de tracé du commit ? (y/[n]) ?" yn < /dev/tty
+yn=${yn:n}
+case $yn in
+        [Yy]* ) 
+	      mkdir -p suivi
+	      echo "commit vérifié le " `date` > suivi/commitInfo.txt
+              git add suivi/commitInfo.txt
+              exit 0;;
+        [Nn]* ) 
+              exit 0;;
+esac
+exit 0
