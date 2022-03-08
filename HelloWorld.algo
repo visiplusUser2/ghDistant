@@ -1,11 +1,13 @@
   Import Constantes.algo
-
+ 
 Algo HelloWorld {
      main {
 
 	// Création de la fenetre
         Créer une fenetre de titre HELLO_WORLD_TITLE
 	Mettre la dimension à 100, 300
+	Créer la couleur verte 
+	Mettre la couleur verte sur la fenetre
 	Configurer la fenetre sur ‘exitOnClose’
 
 	// Gestion du jaune
